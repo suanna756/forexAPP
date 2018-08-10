@@ -23,7 +23,7 @@ public class mysql {
 		// set the user name
 		user = "root";
 		// set the password
-		password = "su501233977";
+		password = "?????";
 		this.connect(url, user, password);
 	}
 
