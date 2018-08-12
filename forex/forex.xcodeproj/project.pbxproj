@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		90B12A75210F63200013D6D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12A74210F63200013D6D8 /* main.m */; };
 		90B12A78210F63200013D6D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12A77210F63200013D6D8 /* AppDelegate.m */; };
-		90B12A7B210F63200013D6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12A7A210F63200013D6D8 /* ViewController.m */; };
 		90B12A7E210F63200013D6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B12A7C210F63200013D6D8 /* Main.storyboard */; };
 		90B12A80210F63200013D6D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90B12A7F210F63200013D6D8 /* Assets.xcassets */; };
 		90B12A83210F63200013D6D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90B12A81210F63200013D6D8 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,9 @@
 		90B12A99210F63200013D6D8 /* forexUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12A98210F63200013D6D8 /* forexUITests.m */; };
 		90B12AA8210F732E0013D6D8 /* forexData.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12AA7210F732E0013D6D8 /* forexData.m */; };
 		90B12AF021175EC10013D6D8 /* clientSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12AEF21175EC10013D6D8 /* clientSocket.m */; };
-		90B12AF3211CFAC40013D6D8 /* marketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12AF2211CFAC40013D6D8 /* marketViewController.m */; };
+		90B12AF9211EF7410013D6D8 /* user.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12AF8211EF7410013D6D8 /* user.m */; };
+		90B12B02211F283D0013D6D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12B01211F283D0013D6D8 /* ViewController.m */; };
+		90B12B08211FE8330013D6D8 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B12B07211FE8330013D6D8 /* MarketViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +43,6 @@
 		90B12A74210F63200013D6D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90B12A76210F63200013D6D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90B12A77210F63200013D6D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90B12A79210F63200013D6D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		90B12A7A210F63200013D6D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90B12A7D210F63200013D6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90B12A7F210F63200013D6D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90B12A82210F63200013D6D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,8 +57,12 @@
 		90B12AA7210F732E0013D6D8 /* forexData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = forexData.m; sourceTree = "<group>"; };
 		90B12AEE21175EC10013D6D8 /* clientSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clientSocket.h; sourceTree = "<group>"; };
 		90B12AEF21175EC10013D6D8 /* clientSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = clientSocket.m; sourceTree = "<group>"; };
-		90B12AF1211CFAC40013D6D8 /* marketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = marketViewController.h; sourceTree = "<group>"; };
-		90B12AF2211CFAC40013D6D8 /* marketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = marketViewController.m; sourceTree = "<group>"; };
+		90B12AF7211EF7410013D6D8 /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		90B12AF8211EF7410013D6D8 /* user.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = user.m; sourceTree = "<group>"; };
+		90B12B00211F283D0013D6D8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		90B12B01211F283D0013D6D8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		90B12B06211FE8330013D6D8 /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarketViewController.h; path = ../MarketViewController.h; sourceTree = "<group>"; };
+		90B12B07211FE8330013D6D8 /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarketViewController.m; path = ../MarketViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,21 +113,23 @@
 		90B12A72210F63200013D6D8 /* forex */ = {
 			isa = PBXGroup;
 			children = (
-				90B12AF1211CFAC40013D6D8 /* marketViewController.h */,
-				90B12AF2211CFAC40013D6D8 /* marketViewController.m */,
+				90B12B06211FE8330013D6D8 /* MarketViewController.h */,
+				90B12B07211FE8330013D6D8 /* MarketViewController.m */,
+				90B12B00211F283D0013D6D8 /* ViewController.h */,
+				90B12B01211F283D0013D6D8 /* ViewController.m */,
 				90B12A76210F63200013D6D8 /* AppDelegate.h */,
 				90B12A77210F63200013D6D8 /* AppDelegate.m */,
-				90B12A79210F63200013D6D8 /* ViewController.h */,
-				90B12A7A210F63200013D6D8 /* ViewController.m */,
 				90B12AA6210F732E0013D6D8 /* forexData.h */,
 				90B12AA7210F732E0013D6D8 /* forexData.m */,
+				90B12AEE21175EC10013D6D8 /* clientSocket.h */,
+				90B12AEF21175EC10013D6D8 /* clientSocket.m */,
+				90B12AF8211EF7410013D6D8 /* user.m */,
+				90B12AF7211EF7410013D6D8 /* user.h */,
 				90B12A7C210F63200013D6D8 /* Main.storyboard */,
 				90B12A7F210F63200013D6D8 /* Assets.xcassets */,
 				90B12A81210F63200013D6D8 /* LaunchScreen.storyboard */,
 				90B12A84210F63200013D6D8 /* Info.plist */,
 				90B12A73210F63200013D6D8 /* Supporting Files */,
-				90B12AEE21175EC10013D6D8 /* clientSocket.h */,
-				90B12AEF21175EC10013D6D8 /* clientSocket.m */,
 			);
 			path = forex;
 			sourceTree = "<group>";
@@ -288,10 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90B12AF3211CFAC40013D6D8 /* marketViewController.m in Sources */,
+				90B12B02211F283D0013D6D8 /* ViewController.m in Sources */,
 				90B12AA8210F732E0013D6D8 /* forexData.m in Sources */,
-				90B12A7B210F63200013D6D8 /* ViewController.m in Sources */,
 				90B12AF021175EC10013D6D8 /* clientSocket.m in Sources */,
+				90B12B08211FE8330013D6D8 /* MarketViewController.m in Sources */,
+				90B12AF9211EF7410013D6D8 /* user.m in Sources */,
 				90B12A78210F63200013D6D8 /* AppDelegate.m in Sources */,
 				90B12A75210F63200013D6D8 /* main.m in Sources */,
 			);
